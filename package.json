@@ -13,7 +13,6 @@
     "start": "scripts/start",
     "test": "scripts/test",
     "debug": "scripts/start --debug",
-    "check": "scripts/lint",
     "clean": "gts clean",
     "compile": "tsc",
     "compile:prod": "scripts/build --prod",

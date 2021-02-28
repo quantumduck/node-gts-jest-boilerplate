@@ -16,6 +16,6 @@ then
   echo "> tsc -p tsconfig.prod.json"
   node_modules/.bin/tsc -p tsconfig.prod.json  
 else
-  echo "> tsc -p ."
-  node_modules/.bin/tsc -p .
+  echo "> tsc"
+  node_modules/.bin/tsc
 fi

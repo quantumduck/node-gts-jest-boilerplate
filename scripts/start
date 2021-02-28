@@ -15,10 +15,10 @@ echo ""
 
 if [ "$1" = "--debug" ]
 then
-  echo "> node --nolazy --inspect-brk=9339 dist/run.js"
-  node --nolazy --inspect-brk=9339 dist/run.js
+  echo "> node --nolazy --inspect-brk=9339 build/src/run.js"
+  node --nolazy --inspect-brk=9339 build/src/run.js
 else
-  echo "> node dist/run.js"
-  node dist/run.js
+  echo "> node build/src/run.js"
+  node build/src/run.js
 fi
 

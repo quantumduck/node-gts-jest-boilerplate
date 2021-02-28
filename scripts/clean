@@ -4,5 +4,5 @@
 set -e
 cd "$(dirname $0)"; cd ..
 
-echo "> rm -rf dist"
-rm -rf dist
+echo "> gts clean"
+node_modules/.bin/gts clean

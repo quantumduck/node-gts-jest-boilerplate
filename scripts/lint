@@ -4,5 +4,5 @@
 set -e
 cd "$(dirname $0)"; cd ..
 
-echo "> gts check"
-node_modules/.bin/gts check
+echo "> gts lint"
+node_modules/.bin/gts lint
