@@ -4,7 +4,7 @@ import {
   LOG_LEVEL_DICTIONARY,
 } from './logger.interface';
 
-// tslint:disable: no-any
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 export class LoggerUtil {
   static createLogEntry(
     logLevel: LogLevel,

@@ -1,6 +1,5 @@
 import {ConsoleLogger, LogLevel} from '..';
 import {LoggerUtil} from '../logger-util';
-import {expectDate} from '../../../../test/util';
 
 describe('ConsoleLogger', () => {
   const defaultLogLevel = LogLevel.INFO;

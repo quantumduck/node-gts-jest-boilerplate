@@ -1,6 +1,6 @@
 import {Dictionary} from '../interfaces';
 
-// tslint:disable: no-any
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 export interface Logger {
   emergency: LogFunction;
   alert: LogFunction;
