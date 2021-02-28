@@ -1,12 +1,12 @@
-import { ConsoleLogger, LogLevel } from '..';
-import { LoggerUtil } from '../logger-util';
-import { expectDate } from '../../../../test/util';
+import {ConsoleLogger, LogLevel} from '..';
+import {LoggerUtil} from '../logger-util';
+import {expectDate} from '../../../../test/util';
 
 describe('ConsoleLogger', () => {
   const defaultLogLevel = LogLevel.INFO;
   const testMessage = 'testing 123';
   const testError = Error('I accidentally an error');
-  const testData = { additionalInfo: 'I like turtles' };
+  const testData = {additionalInfo: 'I like turtles'};
 
   const consoleLoggerInterface = {
     error: jest.fn(),
@@ -28,10 +28,7 @@ describe('ConsoleLogger', () => {
   ];
 
   const getMessageContent = (logEntry: string) =>
-    logEntry
-      .split(' ')
-      .slice(1)
-      .join(' ');
+    logEntry.split(' ').slice(1).join(' ');
 
   const getLoggedMessageContent = (mockFn: jest.Mock) =>
     getMessageContent(mockFn.mock.calls[0][0]);

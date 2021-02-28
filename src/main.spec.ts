@@ -1,4 +1,4 @@
-import { Main } from '.';
+import {Main} from '.';
 
 describe('Main', () => {
   const mockLogger = {
@@ -19,7 +19,7 @@ describe('Main', () => {
 
   describe('runOnce', () => {
     it('should log that it has started', async () => {
-      const target = new Main({ logger: mockLogger });
+      const target = new Main({logger: mockLogger});
       await target.runOnce();
       expect(mockLogger.notice).toHaveBeenCalledWith('Started');
     });

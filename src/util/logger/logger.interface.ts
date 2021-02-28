@@ -1,4 +1,4 @@
-import { Dictionary } from '../interfaces';
+import {Dictionary} from '../interfaces';
 
 // tslint:disable: no-any
 export interface Logger {

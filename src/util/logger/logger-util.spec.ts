@@ -1,13 +1,13 @@
-import { LoggerUtil } from './logger-util';
-import { LogLevel, LOG_LEVEL_STRINGS } from './logger.interface';
-import { EnvironmentEditor } from '../../../test/util';
-import { expectDate, expectString } from '../../../test/util';
+import {LoggerUtil} from './logger-util';
+import {LogLevel, LOG_LEVEL_STRINGS} from './logger.interface';
+import {EnvironmentEditor} from '../../../test/util';
+import {expectDate, expectString} from '../../../test/util';
 
 describe('LoggerUtil', () => {
   const target = LoggerUtil;
   const testMessage = 'msg';
   const testError = TypeError('bad type');
-  const testData = { data: {} };
+  const testData = {data: {}};
 
   describe('createLogEntry', () => {
     it('should include the timestamp at the start', () => {

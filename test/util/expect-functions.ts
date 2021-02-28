@@ -32,7 +32,7 @@ export function expectDate(time: string | number | Date) {
       toBeBefore(afterTime) && toBeAfter(beforeTime),
       `Expected ${time} to be between ${beforeTime} and ${afterTime}`
     );
-  return { toBeBefore, toBeAfter, toBeBetween };
+  return {toBeBefore, toBeAfter, toBeBetween};
 }
 
 export function expectString(str: string) {

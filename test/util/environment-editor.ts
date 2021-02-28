@@ -1,4 +1,4 @@
-import { Dictionary } from '../../src/util/interfaces';
+import {Dictionary} from '../../src/util/interfaces';
 
 export class EnvironmentEditor {
   private readonly envCopy: Dictionary<string> = {};

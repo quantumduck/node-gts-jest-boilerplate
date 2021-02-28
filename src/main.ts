@@ -1,5 +1,5 @@
-import { ApplicationDependencies } from './main.models';
-import { Logger, ConsoleLogger } from './util';
+import {ApplicationDependencies} from './main.models';
+import {Logger, ConsoleLogger} from './util';
 
 export class Main {
   private readonly logger: Logger;

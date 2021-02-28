@@ -1,5 +1,5 @@
-import { Main } from '.';
-import { ConsoleLogger } from './util';
+import {Main} from '.';
+import {ConsoleLogger} from './util';
 
 const application = new Main();
 const logger = new ConsoleLogger();

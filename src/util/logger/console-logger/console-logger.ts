@@ -1,6 +1,6 @@
-import { Logger, LogLevel } from '..';
-import { LoggerUtil } from '../logger-util';
-import { ConsoleLoggingInterface } from './console-logger.models';
+import {Logger, LogLevel} from '..';
+import {LoggerUtil} from '../logger-util';
+import {ConsoleLoggingInterface} from './console-logger.models';
 
 // tslint:disable: no-any
 export class ConsoleLogger implements Logger {
